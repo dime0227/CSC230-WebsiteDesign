@@ -63,9 +63,15 @@ aside blockquote {
 }
 aside blockquote ::before{
    content: open-quote;
+   font-size: 1.6em;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
 }
 aside blockquote ::after{
    content: open-quote;
+   font-size: 1.6em;
+   font-weight: bold;
+   font-family: 'Times New Roman', Times, serif;
 }
 
 
