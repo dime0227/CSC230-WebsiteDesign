@@ -41,7 +41,13 @@ body{
 header{
    background-color: black;
 }
-
+p{
+   margin: 0px;
+   padding-top: 5px;
+   padding-right: 25px;
+   padding-left: 25px;
+   padding-bottom: 25px;
+}
 
 
 /* Navigation Styles */
