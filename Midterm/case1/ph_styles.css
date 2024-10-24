@@ -36,7 +36,7 @@ html{
 }
 body{
    background-color: hsl(58, 31%, 84%);
-   font-family: Palatino Linotype, Book Antiqua, Palatino, serif;
+   font-family: 'Palatino Linotype', 'Book Antiqua', Palatino, serif;
 }
 header{
    background-color: black;
@@ -62,7 +62,11 @@ footer address{
 
 
 /* Navigation Styles */
-
+nav a{
+   font-family: 'Trebuchet MS', Helvetica, sans-serif;
+   padding-top: 10px;
+   padding-bottom: 10px;
+}
 
 
 
