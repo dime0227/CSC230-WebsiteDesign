@@ -17,12 +17,18 @@ body {
    display: grid;
    grid-template-columns: 2fr 1fr;
 }
+body > * {
+   outline: 2px dashed red;
+}
 
 
 /* Grid Styles for Nested Grid */
 section {
    display: grid;
    grid-template-columns: repeat(2, 1fr);
+}
+section > * {
+   outline: 2px dashed blue;
 }
 
 
