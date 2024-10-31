@@ -11,17 +11,27 @@
 
 */
 
-
+div.infobox {display:none}
 /* Main Styles */
-
+main {
+   position: relative;
+   height: 1400px;
+   width: 100%;
+}
 
 
 /* Infographic Styles */
-
+div.infobox {
+   position: absolute;
+}
 
 
 /* First Infographic */
-
+div#info1 {
+   display: block;
+   top: 20px;
+   left: 5%;
+}
 
 
 /* Second Infographic */
