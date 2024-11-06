@@ -30,7 +30,7 @@ body {
 img {
    display: block;
 }
-#logo {
+img#logo {
    grid-column: span 3;
    width: 100%;
 }
@@ -95,6 +95,10 @@ aside {
 }
 aside:nth-of-type(odd) {
    justify-self: end;
+}
+aside img {
+   float: left;
+   width: 20%;
 }
 
 /* Footer Styles */
