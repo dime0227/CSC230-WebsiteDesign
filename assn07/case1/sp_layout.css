@@ -51,7 +51,12 @@ img {
 
 
 /* Horizontal Navigation List Styles */
-
+nav, footer {
+   grid-column: span 4;
+}
+aside {
+   grid-column: span 2;
+}
 
 
 
