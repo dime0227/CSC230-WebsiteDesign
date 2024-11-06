@@ -30,7 +30,7 @@ body {
 img {
    display: block;
 }
-#logo {
+img#logo {
    grid-column: span 3;
    width: 100%;
 }
@@ -57,7 +57,11 @@ nav, footer {
 aside {
    grid-column: span 2;
 }
-
+nav li {
+   display: block;
+   width: 12.5%;
+   float: left;
+}
 
 
 /* Topics Styles */
