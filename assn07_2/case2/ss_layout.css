@@ -56,6 +56,10 @@ div#battleMap {
    position: relative;
 }
 
+img#mapImage {
+   display: block;
+   width: 100%;
+}
 
 
 /* Interactive Map Styles */
