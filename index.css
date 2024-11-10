@@ -1,0 +1,58 @@
+@charset "utf-8";
+
+html, body {
+    background-color: #F4D03F;
+    background-image: linear-gradient(132deg, #f4d03f 0%, #16A085 100%);   
+    width: 90.2%;
+	max-width: 900px;
+	margin: 0px auto auto auto;
+	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
+    height: 98.5%;
+}
+
+
+body img {
+        float: left;
+        width: 28.5%;
+        height: 42.5%;
+        margin: 2% 2% 0% 2%;
+    }
+
+div#assignments{
+    text-align: center;
+	margin: 115px auto;
+	padding: 1%;
+	border: 1px solid rgb(19, 62, 46);
+	width:50%;
+	background-color: #f4d03f;
+}
+
+div#AboutMe {
+    float: none;
+    border-bottom: 1px;
+    padding-top: 15%;
+}
+div ul {
+	margin-top: -20px;
+}
+h2{
+    text-decoration: underline;
+}
+
+a {
+    text-decoration: none;
+    color: hsl(216, 98%, 16%);
+}
+
+a:hover {
+    color: hsl(220, 99%, 40%);
+}
+
+
+div h1 {
+	font-size: 1.1em;
+}
+
+div p {
+	font-size: 0.95em;
+}
