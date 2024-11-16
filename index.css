@@ -1,44 +1,74 @@
 @charset "utf-8";
 
 html, body {
+    font-family: Arial, Helvetica, sans-serif;
     background-color: #F4D03F;
     background-image: linear-gradient(132deg, #f4d03f 0%, #16A085 100%);   
     width: 90.2%;
 	max-width: 900px;
 	margin: 0px auto auto auto;
 	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
-    height: 98.5%;
+    height: auto;
+    padding-bottom: 10%;
+    max-height: 1100px;
 }
-
-
 body img {
-        float: left;
-        width: 25%;
+        position: absolute;
+        width: auto;
         height: 39.5%;
         margin: 2% 2% 0% 2%;
     }
 
+
+
+
+    
+div#AboutMe h1, h3, p {
+        position: relative;
+        left: 30%;
+        top: 190px;
+    }
+
 div#assignments{
-    text-align: center;
-	margin: 115px auto;
-	padding: 1%;
-	border: 1px solid rgb(19, 62, 46);
-	width:50%;
-	background-color: #f4d03f;
+    position: left;
+	margin: 30% auto;
+	border: 5px solid rgb(19, 62, 46);
+    border-radius: 60px;
+	width:80%;
+    height: auto;
+    
+}
+div#assignments li {
+	margin-top: 5px;
+    list-style-type: decimal;
+    text-indent: 10px;
+    font-weight: bold;
 }
 
-div#AboutMe {
-    float: none;
-    border-bottom: 1px;
-    padding-top: 15%;
+div#assignments ul {
+	margin-top: 10px;
+    list-style-type: circle;
+    text-indent: 10px;
 }
-div ul {
-	margin-top: -20px;
-}
-h2{
+
+div#assignments a{
+    text-indent: 20px;
     text-decoration: underline;
 }
 
+.paper {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+h2{
+    text-decoration: underline;
+    text-align: center;
+}
 a {
     text-decoration: none;
     color: hsl(216, 98%, 16%);
