@@ -38,6 +38,10 @@ article {
    flex: 1 3 180px;
 }
 
+body>footer {
+   order: 100;
+}
+
 
 
 
