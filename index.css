@@ -10,8 +10,9 @@ html, body {
 	box-shadow: rgba(31, 61, 31, 0.9) 20px 0px 25px,  rgba(31, 61, 31, 0.9) -20px 0px 25px;
     height: auto;
     padding-bottom: 10%;
-    max-height: 1100px;
+    max-height: 1300px;
 }
+
 body img {
         position: absolute;
         width: auto;
