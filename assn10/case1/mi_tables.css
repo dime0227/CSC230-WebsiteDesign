@@ -15,7 +15,7 @@
 
 /* Table Styles */
 table.pricing{
-   background-image: linear-gradient(to bottom, rgb(190,215,255), black);
+   background: linear-gradient(to bottom, rgb(190,215,255), black);
    border: 5px solid gray;
 }
 
@@ -38,7 +38,9 @@ table td{
 }
 
 /* Column Styles */
-
+col#firstCol{
+   column-width: 24%;
+}
 
 
 /* Table Header Styles */
