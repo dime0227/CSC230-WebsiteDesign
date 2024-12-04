@@ -14,9 +14,15 @@
 */
 
 /* Table Styles */
-table {
+table.pricing{
    background-image: linear-gradient(to bottom, rgb(190,215,255), black);
    border: 5px solid gray;
+}
+
+th, td {
+   border: 3px solid gray;
+   line-height: 1.4em;
+   padding: 8px;
 }
 
 
