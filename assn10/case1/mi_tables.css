@@ -48,7 +48,9 @@ col.dataCols{
 
 
 /* Table Header Styles */
-
+table thead tr{
+   height: 60px;
+}
 
 
 
