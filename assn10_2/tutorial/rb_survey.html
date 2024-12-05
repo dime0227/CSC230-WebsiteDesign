@@ -95,7 +95,7 @@
 
 
          <div class="formRow">
-            <label fo="info">Where did you hear about us?<br />
+            <label for="info">Where did you hear about us?<br />
             (select all that apply)</label>
             <select name="infoSrc" id="info" size="5" multiple>
                <option value="internet">Internet</option>
@@ -104,6 +104,11 @@
                <option value="word">Word of Mouth</option>
                <option value="other">Other</option>
             </select>
+         </div>
+
+         <div class="formRow">
+            <label for="dineSpin">How many times do you dine out per month?</label>
+            <input name="dineOut" id="dineSpin" type="number" value="1" step="1" min="0" max="20" />
          </div>
 
          <input name="mailMe" id="mailCB" value="yes" type="checkbox" />
