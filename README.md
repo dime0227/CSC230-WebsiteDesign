@@ -1,2 +1,3 @@
 # CSC230-WebsiteDesign
-updated 
+
+<li><a href="https://dime0227.github.io/CSC230-WebsiteDesign/finalExam/">Dimend McClain - CSC230 - Website Design Personal Index</a></li>
