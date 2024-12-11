@@ -123,3 +123,10 @@ td{
     display: flex;
     height: 100%;
 }
+
+/*Footer Style*/
+footer{
+    background-color: #d2d3db;
+    font-size: 12pt;
+    text-align: center;
+}
